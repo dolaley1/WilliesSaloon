@@ -1,0 +1,160 @@
+﻿body {
+    background-color: #111;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+/*side navigation bar*/
+.sidenav {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        font-family: Georgia, serif;
+        font-weight: bold;
+    }
+
+        .sidenav a:hover {
+            /*redish organge color*/
+            color: #f56012;
+        }
+
+.main {
+    margin-left: 190px; /*same as the width of the sidenav*/
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+/*Events Page*/
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.indent {
+    text-indent: 23%;
+    text-align: center;
+}
+
+.right {
+    width: 400px;
+    padding: 10px;
+}
+
+.date {
+    background-color: #f56012;
+    color: white;
+    line-height: 40px;
+    width: 260px;
+    margin-left: 30%;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.line {
+    border-bottom: 2px solid #f56012;
+}
+/*footer on master page*/
+footer {
+    text-align: center;
+    padding: 2px 1px 1px 1px;
+}
+
+html {
+    background: #111;
+}
+
+/*Willies Logo*/
+.header {
+    margin-left: 190px; /*same as the width of the sidenav*/
+    padding: 0px 10px;
+    background: #111;
+    text-align: center;
+}
+
+/*Gallery Page*/
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Merchandise Page*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.orange {
+    color: #f56012;
+}
+
+/*Home Page*/
+
+.container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    .container .content {
+        position: absolute;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+/*Contact Page*/
+
+.contact {
+    text-align: center;
+}
+
+.textbox {
+    border-radius: 5px;
+}
